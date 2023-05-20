@@ -1,5 +1,7 @@
 # To-Do List in React
 
+## Description
+
 It's a simple to-do list where you can add, check off or remove tasks. It's a website I created as part of a project for the YouCode course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
