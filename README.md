@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-[To-do list in React](https://krystiangreblowski.github.io/to-do-list)
+[To-do list in React](https://krystiangreblowski.github.io/to-do-list-react)
 
 ## Preview
 
