@@ -16,9 +16,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Technologies
 - React
+- JavaScript(ES6+)
 - HTML
 - CSS
-- JavaScript(ES6+)
 
 ## Available Scripts
 
