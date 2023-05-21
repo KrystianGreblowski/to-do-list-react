@@ -1,8 +1,8 @@
 import "./style.css";
 
-const Buttons = ({ tasks, hideDoneTasks }) => (
+const Buttons = ({ tasks, hideDoneTasks }) =>
   tasks.length > 0 && (
-    < div className="buttons" >
+    <div className="buttons">
       <button className={`buttons__singleButton`}>
         {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
       </button>
@@ -12,8 +12,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
       >
         Ukończ wszystkie
       </button>
-    </div >
-  )
-);
+    </div>
+  );
 
 export default Buttons;
