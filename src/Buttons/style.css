@@ -1,35 +1,35 @@
 .buttons {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
 }
 
 @media (max-width: 767px) {
-    .buttons {
-        grid-template-columns: 1fr;
-    }
+  .buttons {
+    grid-template-columns: 1fr;
+  }
 }
 
 .buttons__singleButton {
-    background-color: transparent;
-    color: teal;
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s;
+  background-color: transparent;
+  color: teal;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .buttons__singleButton:hover {
-    color: hsl(180, 100%, 35%);
+  color: hsl(180, 100%, 35%);
 }
 
 .buttons__singleButton:active {
-    color: hsl(180, 100%, 40%);
+  color: hsl(180, 100%, 40%);
 }
 
 .buttons__singleButton:disabled {
-    color: #ccc;
-    cursor: default;
+  color: #ccc;
+  cursor: default;
 }

@@ -1,24 +1,24 @@
 .section__header {
-    padding: 20px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    box-shadow: 1px 1px 3px #ddd;
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  box-shadow: 1px 1px 3px #ddd;
 }
 
 .section__header--buttons {
-    display: grid;
-    grid-template-columns: 1fr auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
 @media (max-width: 767px) {
-    .section__header--buttons {
-        grid-template-columns: 1fr;
-        grid-gap: 30px;
-    }
+  .section__header--buttons {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 }
 
 .section__title {
-    font-size: 20px;
-    margin: 0;
+  font-size: 20px;
+  margin: 0;
 }
