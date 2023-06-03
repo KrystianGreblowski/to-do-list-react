@@ -1,4 +1,4 @@
-# To-Do List in React
+# To-Do List
 
 ## Description
 
