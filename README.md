@@ -1,4 +1,4 @@
-# To-Do List in React
+# To-Do List
 
 ## Description
 
@@ -8,11 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-[To-do list in React](https://krystiangreblowski.github.io/to-do-list-react)
+[To-do list](https://krystiangreblowski.github.io/to-do-list-react)
 
 ## Preview
 
-![To-do list in React](https://i.postimg.cc/MZdPfxyK/to-do-list-react.png)
+![To-do list](https://i.postimg.cc/MZdPfxyK/to-do-list-react.png)
 
 ## Technologies
 - React
