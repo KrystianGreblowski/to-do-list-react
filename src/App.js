@@ -6,13 +6,13 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 
+const getInitialTasks = () => JSON.parse(localStorage.getItem("tasks")) || [];
+const getInitialHideDoneState = () =>
+  JSON.parse(localStorage.getItem("hideDone")) || false;
+
 function App() {
-  const [hideDone, setHideDone] = useState(
-    JSON.parse(localStorage.getItem("hideDone")) || false
-  );
-  const [tasks, setTasks] = useState(
-    JSON.parse(localStorage.getItem("tasks")) || []
-  );
+  const [hideDone, setHideDone] = useState(getInitialHideDoneState);
+  const [tasks, setTasks] = useState(getInitialTasks);
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
