@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Form from "./Form";
-import List from "./List";
+import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
@@ -71,7 +71,7 @@ function App() {
       <Section
         title="Lista zadań"
         body={
-          <List
+          <Tasks
             tasks={tasks}
             hideDone={hideDone}
             removeTask={removeTask}
