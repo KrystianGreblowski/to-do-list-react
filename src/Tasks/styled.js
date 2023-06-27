@@ -32,7 +32,7 @@ export const Content = styled.span`
     `}
 `;
 
-export const Button = styled.button`
+export const ToggleDoneButton = styled.button`
   width: 30px;
   height: 30px;
   border: none;
@@ -45,15 +45,13 @@ export const Button = styled.button`
   &:hover {
     background-color: hsl(120, 100%, 30%);
   }
+`;
 
-  ${({ remove }) =>
-    remove &&
-    css`
-      background-color: hsl(0, 100%, 50%);
-      color: white;
+export const RemoveButton = styled(ToggleDoneButton)`
+  background-color: hsl(0, 100%, 50%);
+  color: white;
 
-      &:hover {
-        background-color: hsl(0, 100%, 60%);
-      }
-    `}
+  &:hover {
+    background-color: hsl(0, 100%, 60%);
+  }
 `;
