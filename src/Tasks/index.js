@@ -10,9 +10,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
 
         <Content done={task.done}>{task.content}</Content>
 
-        <RemoveButton onClick={() => removeTask(task.id)}>
-          🗑
-        </RemoveButton>
+        <RemoveButton onClick={() => removeTask(task.id)}>🗑</RemoveButton>
       </Item>
     ))}
   </List>
