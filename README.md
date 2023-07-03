@@ -4,7 +4,7 @@
 
 It's a to-do list where you can add, check off or remove tasks. 
 
-The entered tasks are stored in LocalStorage, so even after refreshing the browser, the added tasks will not disappear.
+The entered tasks are stored in a localStorage, so even after refreshing the browser, the added tasks will not disappear.
 
 It's an application I created as part of a project for the YouCode Frontend Developer course.
 
