@@ -10,7 +10,7 @@ export const StyledButtons = styled.div`
   }
 `;
 
-export const SingleButton = styled.button`
+export const Button = styled.button`
   background-color: transparent;
   color: teal;
   margin: 0;
