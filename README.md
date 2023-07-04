@@ -1,8 +1,12 @@
-# To-Do List
+# To-do list
 
 ## Description
 
-It's a simple to-do list where you can add, check off or remove tasks. It's a website I created as part of a project for the YouCode course.
+It's a to-do list where you can add, check off or remove tasks. 
+
+The entered tasks are stored in a localStorage, so even after refreshing the browser, the added tasks will not disappear.
+
+It's an application I created as part of a project for the YouCode Frontend Developer course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
