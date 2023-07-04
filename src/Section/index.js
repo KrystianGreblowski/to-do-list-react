@@ -2,7 +2,7 @@ import { Header, Title } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
   <section>
-    <Header buttons>
+    <Header>
       <Title>{title}</Title>
       {extraHeaderContent}
     </Header>
