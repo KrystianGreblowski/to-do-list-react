@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Header = styled.header`
   padding: 20px;
@@ -6,18 +6,13 @@ export const Header = styled.header`
   margin-top: 10px;
   margin-bottom: 2px;
   box-shadow: 1px 1px 3px #ddd;
+  display: grid;
+  grid-template-columns: 1fr auto;
 
-  ${({ buttons }) =>
-    buttons &&
-    css`
-      display: grid;
-      grid-template-columns: 1fr auto;
-
-      @media (max-width: 767px) {
-        grid-template-columns: 1fr;
-        grid-gap: 30px;
-      }
-    `}
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
 `;
 
 export const Title = styled.h2`
