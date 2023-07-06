@@ -5,7 +5,7 @@ export const StyledButtons = styled.div`
   grid-template-columns: auto auto;
   grid-gap: 30px;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     grid-template-columns: 1fr;
   }
 `;

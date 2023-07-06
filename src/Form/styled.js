@@ -9,7 +9,7 @@ export const StyledForm = styled.form`
   padding: 20px;
   font-size: 14px;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -20,15 +20,15 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  background-color: hsl(180, 100%, 25%);
+  background-color: ${({ theme }) => theme.colors.background};
+  color: ${({ theme }) => theme.colors.font};
   border: none;
   padding: 10px;
-  color: white;
   cursor: pointer;
   transition: 0.4s;
 
   &:hover {
-    background-color: hsl(180, 100%, 30%);
+    background-color: ${({ theme }) => theme.colors.hover};
     transform: scale(1.1);
   }
 `;
