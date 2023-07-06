@@ -1,10 +1,9 @@
 export const theme = {
-  colors: {
+  color: {
     background: "teal",
-    hover: "hsl(180, 100%, 30%)",
     font: "white",
   },
-  breakpoints: {
-    mobile: 767,
+  breakpoint: {
+    mobileMax: 767,
   },
 };

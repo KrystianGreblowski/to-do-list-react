@@ -5,7 +5,7 @@ export const StyledButtons = styled.div`
   grid-template-columns: auto auto;
   grid-gap: 30px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -21,7 +21,11 @@ export const Button = styled.button`
   transition: 0.2s;
 
   &:hover {
-    color: hsl(180, 100%, 35%);
+    filter: brightness(110%);
+  }
+
+  &:active {
+    filter: brightness(120%);
   }
 
   &:disabled {

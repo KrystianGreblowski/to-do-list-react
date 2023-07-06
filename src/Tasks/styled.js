@@ -46,7 +46,11 @@ export const ToggleDoneButton = styled(Button)`
   background-color: hsl(120, 100%, 25%);
 
   &:hover {
-    background-color: hsl(120, 100%, 30%);
+    filter: brightness(110%);
+  }
+
+  &:active {
+    filter: brightness(110%);
   }
 `;
 
@@ -54,6 +58,6 @@ export const RemoveButton = styled(Button)`
   background-color: hsl(0, 100%, 50%);
 
   &:hover {
-    background-color: hsl(0, 100%, 60%);
+    filter: brightness(110%);
   }
 `;

@@ -9,7 +9,7 @@ export const Header = styled.header`
   display: grid;
   grid-template-columns: 1fr auto;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
