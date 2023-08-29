@@ -20,6 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Technologies
 - React
+- Redux
 - JavaScript(ES6+)
 - HTML
 - CSS
