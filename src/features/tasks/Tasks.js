@@ -6,10 +6,10 @@ import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import Container from "../../common/Container";
-import { selectTasks } from "./tasksSlice";
+import { selectTasksState } from "./tasksSlice";
 
 function Tasks() {
-  const { tasks, hideDone } = useSelector(selectTasks);
+  const { tasks, hideDone } = useSelector(selectTasksState);
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
