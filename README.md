@@ -23,7 +23,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Redux
 - JavaScript(ES6+)
 - HTML
-- CSS
 
 ## Available Scripts
 
