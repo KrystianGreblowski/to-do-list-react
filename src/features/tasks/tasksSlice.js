@@ -28,6 +28,10 @@ const tasksSlice = createSlice({
     setAllDone: ({ tasks }) => {
       tasks.forEach((task) => (task.done = true));
     },
+    fetchExampleTasks: () => {},
+    setTasks: (state, { payload: tasks }) => {
+      state.tasks = tasks;
+    },
   },
 });
 
@@ -37,6 +41,8 @@ export const {
   toggleHideDone,
   toggleTaskDone,
   setAllDone,
+  fetchExampleTasks,
+  setTasks,
 } = tasksSlice.actions;
 
 export const selectTasksState = (state) => state.tasks;
