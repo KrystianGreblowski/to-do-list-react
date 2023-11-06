@@ -22,12 +22,16 @@ function* fetchExampleTasksHandler() {
 
 function* saveTasksInLocalStorageHandler() {
   const tasks = yield select(selectTasks);
-  const hideDone = yield select(selectHideDone);
   yield call(saveTasksInLocalStorage, tasks);
+}
+
+function* saveHideDoneInLocalStorageHandler() {
+  const hideDone = yield select(selectHideDone);
   yield call(saveHideDoneStateInLocalStorage, hideDone);
 }
 
 export function* tasksSaga() {
   yield takeLatest(fetchExampleTasks.type, fetchExampleTasksHandler);
   yield takeEvery("*", saveTasksInLocalStorageHandler);
+  yield takeEvery("*", saveHideDoneInLocalStorageHandler);
 }
