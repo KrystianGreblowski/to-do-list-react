@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { StyledButtons, Button } from "./styled";
+import { StyledButtons, Button } from "../styled";
 import {
   selectTasks,
   selectHideDone,
