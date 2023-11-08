@@ -8,21 +8,23 @@ const ButtonExampleTasks = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const startLoading = () => {
-    setLoading((loading) => (loading = true));
-    setTimeout(() => setLoading((loading) => (loading = false)), 800);
+  const showExampleTasks = () => {
+    setLoading((loading) => (loading = false));
+    dispatch(fetchExampleTasks());
   };
 
-  const showExampleTasks = () => {
-    dispatch(fetchExampleTasks());
-    return "Pobierz przykładowe zadania";
+  const startLoading = () => {
+    setLoading((loading) => (loading = true));
+    setTimeout(showExampleTasks, 800);
   };
 
   return (
     <StyledButtons oneButton>
-      <Button onClick={startLoading} disabled={loading ? true : false}>
-        {loading ? "Ładowanie..." : showExampleTasks()}
-      </Button>
+      {loading === false ? (
+        <Button onClick={startLoading}>Pobierz przykładowe zadania</Button>
+      ) : (
+        <Button disabled={true}>Ładowanie...</Button>
+      )}
     </StyledButtons>
   );
 };
