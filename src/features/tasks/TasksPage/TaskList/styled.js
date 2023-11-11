@@ -3,10 +3,7 @@ import styled, { css } from "styled-components";
 export const List = styled.ul`
   list-style: none;
   margin: 0;
-  background-color: white;
-  padding: 15px;
-  font-size: 14px;
-  box-shadow: 1px 1px 3px #ddd;
+  padding: 0;
 `;
 
 export const Item = styled.li`

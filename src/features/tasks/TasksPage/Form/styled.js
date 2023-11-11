@@ -4,10 +4,6 @@ export const StyledForm = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   grid-gap: 20px;
-  background-color: white;
-  box-shadow: 1px 1px 3px #ddd;
-  padding: 20px;
-  font-size: 14px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;

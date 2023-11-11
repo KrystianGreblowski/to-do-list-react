@@ -19,3 +19,10 @@ export const Title = styled.h2`
   font-size: 20px;
   margin: 0;
 `;
+
+export const Body = styled.div`
+  background-color: white;
+  box-shadow: 1px 1px 3px #ddd;
+  padding: 20px;
+  font-size: 14px;
+`
