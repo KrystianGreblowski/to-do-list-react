@@ -3,7 +3,7 @@ import {
   useLocation,
 } from "react-router-dom/cjs/react-router-dom.min";
 import Input from "../../Input";
-import { Wrapper } from "./styled";
+import { StyledSearch } from "./styled";
 import searchQueryParamName from "../searchQueryParamName";
 
 const Search = () => {
@@ -24,13 +24,13 @@ const Search = () => {
   };
 
   return (
-    <Wrapper>
-      <Input
-        placeholder="Filtruj zadania"
-        value={query || ""}
-        onChange={onInputChange}
-      />
-    </Wrapper>
+    <StyledSearch>
+        <Input
+          placeholder="Filtruj zadania"
+          value={query || ""}
+          onChange={onInputChange}
+        />
+    </StyledSearch>
   );
 };
 
