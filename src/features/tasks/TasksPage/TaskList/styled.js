@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
@@ -19,6 +20,19 @@ export const Item = styled.li`
     css`
       display: none;
     `}
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: teal;
+
+  &:hover {
+    filter: brightness(110%);
+  }
+
+  &:active {
+    filter: brightness(110%);
+  }
 `;
 
 export const Content = styled.span`
