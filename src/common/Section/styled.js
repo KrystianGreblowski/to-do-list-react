@@ -25,4 +25,4 @@ export const Body = styled.div`
   box-shadow: 1px 1px 3px #ddd;
   padding: 20px;
   font-size: 14px;
-`
+`;
