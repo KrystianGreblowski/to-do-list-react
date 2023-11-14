@@ -11,15 +11,16 @@ const Author = () => (
       body={
         <>
           <AboutMe>
-            Mam 29 lat i rok temu zainteresowałem się Frontendem. Pochodzę z
-            małej miejscowości na południu Polski. Zawsze jednak ciągnęło mnie
-            do dużych miast i w pewnym momencie swojego życia postanowiłem, że
-            zamieszkam w jednym z nich. I tak oto wylądowalem w Warszawie.
+            Mam 29 lat i rok temu zainteresowałem się tworzeniem stron
+            internetowych. Pochodzę z małej miejscowości na południu Polski.
+            Zawsze jednak ciągnęło mnie do dużych miast i w pewnym momencie
+            swojego życia postanowiłem, że zamieszkam w jednym z nich. I tak oto
+            wylądowałem w Warszawie.
           </AboutMe>
           <AboutMe>
             Interesuję się również sportem, szczególnie lubię pojawiać się na
-            siłowni. Natomiast w wolnym czasie chętnie przeczytam dobrą książkę lub
-            obejrzę ciekawy film.
+            siłowni. Natomiast w wolnym czasie zawsze chętnie przeczytam dobrą książkę
+            lub obejrzę ciekawy film.
           </AboutMe>
         </>
       }
