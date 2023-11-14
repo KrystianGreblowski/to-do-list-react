@@ -19,8 +19,8 @@ const Author = () => (
           </AboutMe>
           <AboutMe>
             Interesuję się również sportem, szczególnie lubię pojawiać się na
-            siłowni. Natomiast w wolnym czasie zawsze chętnie przeczytam dobrą książkę
-            lub obejrzę ciekawy film.
+            siłowni. Natomiast w wolnym czasie zawsze chętnie przeczytam dobrą
+            książkę lub obejrzę ciekawy film.
           </AboutMe>
         </>
       }
