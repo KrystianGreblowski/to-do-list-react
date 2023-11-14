@@ -1,6 +1,6 @@
 import Input from "../../Input/styled";
 import { StyledSearch } from "./styled";
-import searchQueryParamName from "../searchQueryParamName";
+import searchQueryParamName from "./searchQueryParamName";
 import { useQueryParameter, useReplaceQueryParameter } from "./queryParameters";
 
 const Search = () => {
