@@ -2,11 +2,11 @@
 
 ## Description
 
-It's a to-do list where you can add, check off or remove tasks. 
+It's a task list where you can add, tick or remove tasks. You can also download sample tasks.
 
-The entered tasks are stored in a localStorage, so even after refreshing the browser, the added tasks will not disappear.
+The application uses React Router to switch between the tasks page and the author page. The tasks entered are saved in a localStorage so that the added tasks don't disappear even after the browser is refreshed.
 
-It's an application I created as part of a project for the YouCode Frontend Developer course.
+This is the application I created as part of a project for the YouCode Frontend Developer course.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,11 +16,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-![To-do list](https://i.postimg.cc/pLFgHwhV/demo-to-do-list.gif)
+![To-do list](public/readmeImage.png)
 
 ## Technologies
 - React
 - Redux
+- React Router
+- Redux Saga
+- Styled Components
 - JavaScript(ES6+)
 - HTML
 
