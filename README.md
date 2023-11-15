@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-![To-do list](https://i.postimg.cc/pLFgHwhV/demo-to-do-list.gif)
+![To-do list](public/readmeImage.png)
 
 ## Technologies
 - React
