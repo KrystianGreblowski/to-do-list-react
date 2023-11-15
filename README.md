@@ -16,9 +16,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-![To-do list](public/readmeImage.png)
+![To-do list](readmeImage.png)
 
 ## Technologies
+
 - React
 - Redux
 - React Router
