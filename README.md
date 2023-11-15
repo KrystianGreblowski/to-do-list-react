@@ -1,5 +1,9 @@
 # To-do list
 
+## Preview
+
+![To-do list](public/readmeImage.png)
+
 ## Description
 
 It's a task list where you can add, tick or remove tasks. You can also download sample tasks.
@@ -13,10 +17,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Demo
 
 [To-do list](https://krystiangreblowski.github.io/to-do-list-react)
-
-## Preview
-
-![To-do list](public/readmeImage.png)
 
 ## Technologies
 - React
