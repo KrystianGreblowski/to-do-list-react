@@ -2,7 +2,7 @@
 
 ## Preview
 
-![To-do list](public/readmeImage.png)
+![To-do list](readmeImage.png)
 
 ## Description
 
@@ -17,10 +17,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Demo
 
 [To-do list](https://krystiangreblowski.github.io/to-do-list-react)
-
-## Preview
-
-![To-do list](readmeImage.png)
 
 ## Technologies
 
