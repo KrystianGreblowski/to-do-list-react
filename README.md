@@ -4,7 +4,7 @@
 
 It's a task list where you can add, tick or remove tasks. You can also download sample tasks.
 
-The application uses React Router to display the task page and the author page. The tasks entered are saved in a localStorage so that the added tasks don't disappear even after the browser is refreshed.
+The application uses React Router to switch between the tasks page and the author page. The tasks entered are saved in a localStorage so that the added tasks don't disappear even after the browser is refreshed.
 
 This is the application I created as part of a project for the YouCode Frontend Developer course.
 
