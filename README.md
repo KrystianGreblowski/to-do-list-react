@@ -26,7 +26,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Redux Saga
 - Styled Components
 - JavaScript(ES6+)
-- HTML
 
 ## Available Scripts
 
